@@ -79,7 +79,7 @@ public class CallLogsAdapter extends RecyclerView.Adapter<CallLogsAdapter.CallHo
         int p3 = p2 % 60;
         p2 = p2 / 60;
 
-        //holder.duration.setText(p2 + " hrs : " + p3 + " mins: " + p1 + " secs"); //for hrs p2
+        //holder.duration.setText(p2 + " hrs : " + p3 + " mins: " + p1 + " secs"); //for hrs use p2
 
         if(p3>1){
             holder.duration.setText(p3 + " mins " + p1 + " secs");
